@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR</title>
+    <link rel="stylesheet" href="./stylecalc.css">
+    
+    
+</head>
+<body>
+
+    <div id="calci">
+        <div id="inputfield">
+            <input type="text" placeholder="0" id="inputvalue">
+        </div>
+    
+            <div>
+                <button onclick="clearonchar()">C</button>
+                <button onclick="clearall()">CE</button>
+                <button onclick="turnoff()">OFF</button>
+                <button onclick="turnon()">ON</button>
+            </div>
+            <div>
+                <button onclick="getvalues(7)">7</button>
+                <button onclick="getvalues(8)">8</button>
+                <button onclick="getvalues(9)">9</button>
+                <button onclick="getvalues('+')">+</button>
+            </div>
+            <div>
+                <button onclick="getvalues(4)">4</button>
+                <button onclick="getvalues(5)">5</button>
+                <button onclick="getvalues(6)">6</button>
+                <button onclick="getvalues('-')">-</button>
+            </div>
+            <div>
+                <button onclick="getvalues(1)">1</button>
+                <button onclick="getvalues(2)">2</button>
+                <button onclick="getvalues(3)">3</button>
+                <button onclick="getvalues('*')">*</button>
+            </div>
+            <div>
+                <button onclick="getvalues('.')">.</button>
+                <button onclick="getvalues(0)">0</button>
+                <button onclick="getvalues('/')">/</button>
+                <button onclick="claculate()">=</button>
+            </div>
+    </div>
+    <script src="./calc.js"></script>
+
+    
+</body>
+</html>

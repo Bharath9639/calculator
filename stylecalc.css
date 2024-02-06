@@ -1,0 +1,38 @@
+
+body {
+        background: url('./images/image2.jpg') no-repeat center center fixed;
+        background-size: cover;
+    }
+    
+
+
+#calci{
+    height: auto;
+    width: 150px;
+    border: 1px solid grey;
+    margin: 0 auto;
+    background: linear-gradient(45deg,rgb(150,252,247),white);
+   
+}
+
+input[type="text"]{
+    height: 35px;
+    width: 94%;
+    margin: 1px;
+    font-size: 25px; 
+} 
+
+button{
+    border-radius: 50%;
+    border: none;
+    width: 30px;
+    margin: 2px;
+    padding: 8px;
+    background: radial-gradient(rgb(83,83,83) white);
+    
+}
+
+button:hover{
+    background: radial-gradient(white, white);
+    color: black;
+}
